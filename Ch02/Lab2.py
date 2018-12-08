@@ -1,0 +1,11 @@
+stadium = input("경기장은 어디입니까?")
+winner = input("이긴팀은 어디입니까?")
+loser = input("진팀은 어디입니까?")
+vip = input("우수선수는 누구입니까?")
+score = input("스코어는 몇대몇입니까?")
+
+print(" ")
+print("오늘", stadium,"에서 야구경기가 열렸습니다.")
+print(winner, "과", loser,"은/는 경기를 했습니다.")
+print("스코어는", score, "로", winner,"가", loser,"를 이겼습니다.")
+print(vip,"선수가  맹활약으로 vip가 되었습니다.")
